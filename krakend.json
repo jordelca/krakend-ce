@@ -142,6 +142,22 @@
             ]
         },
         {
+            "endpoint": "/opa",
+            "backend": [
+                {
+                    "host": [ "http://api.github.com" ],
+                    "url_pattern": "/",
+                    "whitelist": [
+                        "authorizations_url",
+                        "code_search_url"
+                    ]
+                }
+            ],
+            "extra_config": {
+                "github.com/jordelca/krakend-opa": {}
+            }
+        },
+        {
             "endpoint": "/private/{user}",
             "backend": [
                 {

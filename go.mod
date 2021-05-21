@@ -13,7 +13,7 @@ require (
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/devopsfaith/bloomfilter v0.0.0-20190317200532-4687d0b9aa2a
 	github.com/devopsfaith/flatmap v0.0.0-20200601181759-8521186182fc // indirect
-	github.com/devopsfaith/krakend v1.2.1-0.20210212160439-f312fca7be1e
+	github.com/devopsfaith/krakend v1.3.0
 	github.com/devopsfaith/krakend-amqp v1.1.1-0.20200703170727-f0e7ebe619af
 	github.com/devopsfaith/krakend-botdetector v0.0.0-20200729112051-82f1b8f8fdfe
 	github.com/devopsfaith/krakend-cel v0.0.0-20210127195753-2e4f1c7580e4
@@ -42,7 +42,7 @@ require (
 	github.com/devopsfaith/krakend-usage v0.0.0-20181025134340-476779c0a36c
 	github.com/devopsfaith/krakend-viper v0.0.0-20200605164302-854fa4ff4a66
 	github.com/devopsfaith/krakend-xml v0.0.0-20200824111110-baa61b333b05
-	github.com/gin-gonic/gin v1.6.3
+	github.com/gin-gonic/gin v1.7.1
 	github.com/go-contrib/uuid v1.2.0
 	github.com/google/btree v1.0.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
@@ -52,6 +52,7 @@ require (
 	github.com/influxdata/influxdb v1.7.4 // indirect
 	github.com/influxdata/platform v0.0.0-20190117200541-d500d3cf5589 // indirect
 	github.com/jonboulle/clockwork v0.1.0 // indirect
+	github.com/jordelca/krakend-opa v0.0.0-20210521083340-edc4ba1a68cc
 	github.com/kpacha/opencensus-influxdb v0.0.0-20181102202715-663e2683a27c // indirect
 	github.com/letgoapp/krakend-consul v0.0.0-20190130102841-7623a4da32a1 // indirect
 	github.com/letgoapp/krakend-influx v0.0.0-20190214142340-d2fc9466bb3a
